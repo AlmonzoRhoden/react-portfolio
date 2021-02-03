@@ -1,0 +1,40 @@
+/* Centering page */
+*
+{
+	margin: 3px;
+}
+
+.navbar
+{
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.nav-link
+{
+	 float: right; 
+}
+
+/* Media Query for screens larger than 992px */
+
+@media only screen and (min-width: 992px) 
+{
+	.navbar
+{
+	margin-top: 10px;
+	border-radius: 10px;
+	height: 40px;
+}
+
+
+	.navbar-brand
+	{
+	  padding-right: 740px;
+	}
+
+	.nav-link
+	{
+		font-size:20px;
+	}
+
+}

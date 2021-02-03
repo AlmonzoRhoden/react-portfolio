@@ -1,0 +1,67 @@
+*
+{
+	margin: 3px;
+}
+
+.jumbotron
+{
+	margin-top: 20px;
+	justify-content:space-between;
+	background-color: #F8F9FA;
+	border-radius:20px;
+	padding: 20px;
+	float: right;
+}
+
+#almonzo-img
+{
+	border: 3px solid black;
+}
+
+body
+{
+	font-size: 20px;
+}
+
+
+.card
+{
+	width:100%;
+	text-align: center;
+	margin-bottom:10px;
+	margin: 0 auto;
+}
+
+/* Space background loop - do not touch*/
+#myVideo 
+{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	z-index: -2;
+  }
+
+  /* Media Query for phones */
+@media only screen and (max-width: 767px) 
+{
+
+	#almonzo-img
+{
+	width:100%;
+
+}
+
+}
+
+  /* Media Query for screens larger than 992px */
+
+@media only screen and (min-width: 992px) 
+{
+	.jumbotron
+	{
+		width:47%;
+    }
+}

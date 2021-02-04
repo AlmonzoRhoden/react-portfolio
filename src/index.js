@@ -6,6 +6,5 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js'
 
-
 // Rendering data to the browser
 ReactDOM.render(<App />, document.getElementById('root'));

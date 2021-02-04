@@ -1,22 +1,27 @@
 import $ from "jquery"
 
-$('#testingBtn').on('click', function () {
+
+$('#testingBtn').on('click', function () 
+{
     console.log('Covid-19');
     window.open('https://almonzorhoden.github.io/covid-19-app/', '_blank');
 })
 
-$('#testingGitBtn').on('click', function () {
+$('#testingGitBtn').on('click', function () 
+{
     console.log('Covid-19 Github');
     window.open('https://github.com/AlmonzoRhoden/covid-19-app','_blank');
 });
 
 //  Box-2-Project-2
-$('#BookBtn').on('click', function () {
+$('#BookBtn').on('click', function () 
+{
     console.log('Book');
     window.open('https://book-book-almonzo.herokuapp.com/login','_blank');
 });
 
-$('#BookGitBtn').on('click', function () {
+$('#BookGitBtn').on('click', function () 
+{
     console.log('Book Github');
     window.open('https://github.com/AlmonzoRhoden/book-book', '_blank');
 });
@@ -27,18 +32,21 @@ $('#weatherBtn').on('click', function () {
     window.open('https://almonzorhoden.github.io/weather-dashboard/', '_blank');
 });
 
-$('#weatherGitBtn').on('click', function () {
+$('#weatherGitBtn').on('click', function () 
+{
     console.log('Weather Github');
     window.open('https://github.com/AlmonzoRhoden/weather-dashboard', '_blank');
 });
 
 //  Box-4-Project-4
-$('#burgerBtn').on('click', function () {
+$('#burgerBtn').on('click', function () 
+{
     console.log('Burger');
     window.open('https://almonzo-eat-the-burger.herokuapp.com/', '_blank');
 });
 
-$('#burgerGitBtn').on('click', function () {
+$('#burgerGitBtn').on('click', function () 
+{
     console.log('Burger Github');
     window.open('https://github.com/AlmonzoRhoden/burger', '_blank');
 });

@@ -4,20 +4,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 
 /* Universal settings */
-*
-{
-	box-sizing: border-box;
-}
-
 
 body
 {
 	font-size: 20px;
 }
 
+/* May fix alignment issue I have  */
+
+/* .container
+{
+	float: right;
+	flex-direction: column;
+} */
 
 .jumbotron
 {
+	/* Why is width in this component affecting another?  */
 	width: 290px;
 	height:auto;
 	font-family: 'Times New Roman', Times, serif;
@@ -39,7 +42,7 @@ h2
 .box-1
 {
 	border: 1px solid black;
-	background-image: url(../images/testing-app.png);
+	background-image: url('../images/testing-app.png');
 	background-size: cover;
     width: 300px;
 	height:200px;
@@ -48,7 +51,7 @@ h2
 .box-2
 {
 	border: 1px solid black;
-	background-image: url(../images/book-app.png);
+	background-image: url('../images/book-app.png');
 	background-size: cover;
     width: 300px;
 	height:200px;
@@ -57,7 +60,7 @@ h2
 .box-3
 {
 	border: 1px solid black;
-	background-image: url(../images/weather-app.png);
+	background-image: url('../images/weather-app.png');
 	background-size: cover;
     width: 300px;
 	height:200px;
@@ -66,16 +69,10 @@ h2
 .box-4
 {
 	border: 1px solid black;
-	background-image: url(../images/burger-project.PNG);
+	background-image: url('../images/burger-project.PNG');
 	background-size: cover;
     width: 300px;
 	height:200px;
-}
-
-footer
-{
-	text-align: center;
-	font-size: 12px;
 }
 
 .card
@@ -83,16 +80,6 @@ footer
 	width:100%;
 	text-align: center;
 	margin-bottom:10px;
-}
-
-/* Media Query for Ipads */
-@media only screen and (max-width: 768px) 
-{
-	.jumbotron
-	{
-		float: right;
-	}
-
 }
 
 

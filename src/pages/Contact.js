@@ -21,15 +21,7 @@ function Contact(props)
         Etiam vel condimentum magna, quis tempor nulla.
       </p>
 
-      {/* Vegeta image */}
-        <img src= {logo} style = {{textAlign:"center"}} alt ="vegeta"/>
-      <Link to={`${props.match.url}/portfolio`} role="button" className="btn btn-link">
-        Learn More
-      </Link>{" "}
-      <Link to="/contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link>
-      <Route exact path={`${props.match.url}/portfolio`} component={Portfolio} />
+
     </div>
   );
 }

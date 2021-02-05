@@ -20,7 +20,8 @@ body
 {
 	flex-direction: column;
 	display: flex;
-	float: left;
+	align-items: flex-end;
+	
 }
 
 .jumbotron

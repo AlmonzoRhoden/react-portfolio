@@ -5,7 +5,7 @@ $('#testingBtn').on('click', function ()
 {
     console.log('Covid-19');
     window.open('https://almonzorhoden.github.io/covid-19-app/', '_blank');
-})
+});
 
 $('#testingGitBtn').on('click', function () 
 {
@@ -50,6 +50,34 @@ $('#burgerGitBtn').on('click', function ()
     console.log('Burger Github');
     window.open('https://github.com/AlmonzoRhoden/burger', '_blank');
 });
+
+//  Box-5-Project-5
+$('#plannerBtn').on('click', function () 
+{
+    console.log('Planner');
+    window.open('https://almonzorhoden.github.io/day-planner/', '_blank');
+});
+
+$('#plannerGitBtn').on('click', function () 
+{
+    console.log('Burger Github');
+    window.open('https://github.com/AlmonzoRhoden/day-planner', '_blank');
+});
+
+
+//  Box-6-Project-6
+$('#fitnessBtn').on('click', function () 
+{
+    console.log('Fitness');
+    window.open('https://almonzo-fitness-tracker.herokuapp.com/', '_blank');
+});
+
+$('#fitnessGitBtn').on('click', function () 
+{
+    console.log('Burger Github');
+    window.open('https://github.com/AlmonzoRhoden/fitness-tracker', '_blank');
+});
+
 
 // Contact Me 
 $('#submitBtn').on('click', function () 

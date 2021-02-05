@@ -8,19 +8,48 @@ function Contact(props)
 {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-        Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-        pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-        tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec
-        metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula.
-        Nam tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
-        Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      
 
+      {/* <div className="jumbotron">
+      <h1 className="display-4">Contact</h1>
+      <p className="lead"> </p>
+      <hr className="my-4"/>
+      <p>
+
+      <main>
+        
+        <form>
+          <div className="form-group">
+            
+            <label for="exampleInputName1"> Name</label>
+            <input type="name" className="form-control" id="exampleInputName1" aria-describedby="emailHelp"
+               placeholder= " 👤 Enter Name" required/>
+          </div>
+
+          <div className="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder=" ✉️ Enter Email" required/>
+            <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone
+              else.</small>
+          </div>
+
+          <div className="form-group">
+            <label for="exampleInputPassword1">Message</label>
+            <input type="message" className="form-control-1" id="exampleInputMessage1" placeholder=" 🙂 Message me..." required/>
+          </div>
+
+          <div className="form-check">
+            <button type="submit" className="btn btn-primary" id="submitBtn"><a
+                href="https://www.linkedin.com/in/almonzorhoden/"></a>Submit</button>
+            </form>
+
+      </main> <br/>
+
+       <button id="GitBtn" className="btn btn-dark" button type="submit">Visit Github</button> <button id="LinkedInBtn" className="btn btn-dark" button type="submit">Visit LinkedIn</button>
+    </div> */}
+
+    <img src={logo} alt="Logo" style={{margin:"auto"}}/>
 
     </div>
   );

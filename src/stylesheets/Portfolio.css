@@ -4,33 +4,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 
 /* Universal settings */
+*
+{
+	box-sizing: border-box;
+}
 
 body
 {
 	font-size: 20px;
 }
 
-/* May fix alignment issue I have  */
 
-/* .container
+
+.container
 {
-	float: right;
 	flex-direction: column;
-} */
+	display: flex;
+	float: left;
+}
 
 .jumbotron
 {
-	/* Why is width in this component affecting another?  */
-	width: 290px;
 	height:auto;
 	font-family: 'Times New Roman', Times, serif;
 	border: 1px solid black;
 	border-radius: 10px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	margin:20px;
-}
+} 
 
 h2
 {
@@ -39,7 +42,7 @@ h2
 }
 
 /* Projects Display */
-.box-1
+.Box-1
 {
 	border: 1px solid black;
 	background-image: url('../images/testing-app.png');
@@ -48,7 +51,7 @@ h2
 	height:200px;
 }
 
-.box-2
+.Box-2
 {
 	border: 1px solid black;
 	background-image: url('../images/book-app.png');
@@ -57,7 +60,7 @@ h2
 	height:200px;
 }
 
-.box-3
+.Box-3
 {
 	border: 1px solid black;
 	background-image: url('../images/weather-app.png');
@@ -66,10 +69,28 @@ h2
 	height:200px;
 }
 
-.box-4
+.Box-4
 {
 	border: 1px solid black;
 	background-image: url('../images/burger-project.PNG');
+	background-size: cover;
+    width: 300px;
+	height:200px;
+}
+
+.Box-5
+{
+	border: 1px solid black;
+	background-image: url('../images/day-planner.PNG');
+	background-size: cover;
+    width: 300px;
+	height:200px;
+}
+
+.Box-6
+{
+	border: 1px solid black;
+	background-image: url('../images/Fitness-planner.PNG');
 	background-size: cover;
     width: 300px;
 	height:200px;
@@ -82,8 +103,27 @@ h2
 	margin-bottom:10px;
 }
 
+/* Media Query for Ipads */
+@media only screen and (max-width: 768px) 
+{
+	.jumbotron
+	{
+		float: right;
+	}
+
+}
+
 
 /* Media Query for screens larger than 992px */
+@media only screen and (min-width: 992px) 
+{
+	.jumbotron
+	{
+		width: 290px;
+		
+	}
+
+}
   
 /* Glowing text - do not touch */
 @keyframes glow {

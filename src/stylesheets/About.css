@@ -1,7 +1,4 @@
-*
-{
-	margin: 3px;
-}
+
 
 .jumbotron
 {
@@ -51,7 +48,6 @@ body
 #almonzo-img
 {
 	width:100%;
-
 }
 
 }
@@ -62,6 +58,6 @@ body
 {
 	.jumbotron
 	{
-		width:40%;
+		width:38%;
     }
 }

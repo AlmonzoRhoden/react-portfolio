@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/AlmonzoRhoden/react-portfolio/static/css/main.cc1833b3.chunk.css",
-    "main.js": "/AlmonzoRhoden/react-portfolio/static/js/main.8632c0e4.chunk.js",
-    "main.js.map": "/AlmonzoRhoden/react-portfolio/static/js/main.8632c0e4.chunk.js.map",
-    "runtime-main.js": "/AlmonzoRhoden/react-portfolio/static/js/runtime-main.508a04b9.js",
-    "runtime-main.js.map": "/AlmonzoRhoden/react-portfolio/static/js/runtime-main.508a04b9.js.map",
+    "main.js": "/AlmonzoRhoden/react-portfolio/static/js/main.d9005332.chunk.js",
+    "main.js.map": "/AlmonzoRhoden/react-portfolio/static/js/main.d9005332.chunk.js.map",
+    "runtime-main.js": "/AlmonzoRhoden/react-portfolio/static/js/runtime-main.4b174f02.js",
+    "runtime-main.js.map": "/AlmonzoRhoden/react-portfolio/static/js/runtime-main.4b174f02.js.map",
     "static/css/2.150d169a.chunk.css": "/AlmonzoRhoden/react-portfolio/static/css/2.150d169a.chunk.css",
-    "static/js/2.5b2b67f2.chunk.js": "/AlmonzoRhoden/react-portfolio/static/js/2.5b2b67f2.chunk.js",
-    "static/js/2.5b2b67f2.chunk.js.map": "/AlmonzoRhoden/react-portfolio/static/js/2.5b2b67f2.chunk.js.map",
+    "static/js/2.1ae3d906.chunk.js": "/AlmonzoRhoden/react-portfolio/static/js/2.1ae3d906.chunk.js",
+    "static/js/2.1ae3d906.chunk.js.map": "/AlmonzoRhoden/react-portfolio/static/js/2.1ae3d906.chunk.js.map",
     "index.html": "/AlmonzoRhoden/react-portfolio/index.html",
     "static/css/2.150d169a.chunk.css.map": "/AlmonzoRhoden/react-portfolio/static/css/2.150d169a.chunk.css.map",
     "static/css/main.cc1833b3.chunk.css.map": "/AlmonzoRhoden/react-portfolio/static/css/main.cc1833b3.chunk.css.map",
-    "static/js/2.5b2b67f2.chunk.js.LICENSE.txt": "/AlmonzoRhoden/react-portfolio/static/js/2.5b2b67f2.chunk.js.LICENSE.txt",
+    "static/js/2.1ae3d906.chunk.js.LICENSE.txt": "/AlmonzoRhoden/react-portfolio/static/js/2.1ae3d906.chunk.js.LICENSE.txt",
     "static/media/Portfolio.css": "/AlmonzoRhoden/react-portfolio/static/media/testing-app.011e551e.png",
     "static/media/gif-1.ca472e0e.gif": "/AlmonzoRhoden/react-portfolio/static/media/gif-1.ca472e0e.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.508a04b9.js",
+    "static/js/runtime-main.4b174f02.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.5b2b67f2.chunk.js",
+    "static/js/2.1ae3d906.chunk.js",
     "static/css/main.cc1833b3.chunk.css",
-    "static/js/main.8632c0e4.chunk.js"
+    "static/js/main.d9005332.chunk.js"
   ]
 }

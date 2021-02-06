@@ -47,7 +47,7 @@ function NavBar() {
 
           {/* Nav Contact link  */}
           <li className="nav-item">
-            <a className="nav-link" href="./assets/html/contact.html">
+            <a className="nav-link">
               <Link
                 to="/contact"
                 className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}

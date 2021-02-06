@@ -23,32 +23,6 @@
 }
 
 
-.jumbotron
-{
-	margin-left:20px;
-	margin-top: 20px;
-	font-family: 'Times New Roman', Times, serif;
-	text-align:left;
-	border: 1px solid black;
-	border-radius: 10px;
-	float: left;
-}
-
-main
-{
-	font-size: 16px;
-    text-align: justify;
-    border: 1px solid black;
-    position: relative;
-    border-radius: 10px;
-    padding:30px;
-}
-
-body
-{
-	font-size: 20px;
-}
-
 
 .form-check
 {
@@ -62,30 +36,7 @@ body
     height:100px;
 }
 
-footer
-{
-	text-align: center;
-	font-size: 12px;
-}
 
-.card
-{
-	width:100%;
-	text-align: center;
-	margin-bottom:10px;
-}
-
-/* Space Background - do not touch*/
-#myVideo
- {
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	top: 0;
-	min-width: 100%; 
-	min-height: 100%;
-	z-index: -2;
-  }
 
 
   @media only screen and (max-width: 768px) 
@@ -94,6 +45,8 @@ footer
 	{
 		float: right;
 	}
+
+
 
 }
 

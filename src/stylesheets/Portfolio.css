@@ -21,7 +21,6 @@ body
 	flex-direction: column;
 	display: flex;
 	align-items: flex-end;
-	
 }
 
 .jumbotron
@@ -32,8 +31,7 @@ body
 	border-radius: 10px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	margin:20px;
+	justify-content: space-evenly;
 } 
 
 h2
@@ -110,7 +108,16 @@ h2
 	.jumbotron
 	{
 		float: right;
+		width: 290px;
 	}
+
+	.container
+{
+	flex-direction: row;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
 
 }
 
@@ -120,7 +127,7 @@ h2
 {
 	.jumbotron
 	{
-		width: 290px;
+		width: 400px;
 		
 	}
 

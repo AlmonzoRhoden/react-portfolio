@@ -2,8 +2,8 @@ import React from "react";
 import { Link, Route } from "react-router-dom";
 
 import logo from "../images/gif-1.gif"
-import Portfolio from "./Portfolio";
-import Mailto from var Mailto = require('react-mailto');
+
+
 
 function Contact(props) {
   return (
@@ -40,7 +40,7 @@ function Contact(props) {
               </div>
 
               <div className="form-check">
-              <a href={"mailto:almonzorhoden@gmail.com"} target="_blank" rel="noopener noreferrer"><button type="submit" className="btn btn-primary" id="submitBtn">Submit</button></a>
+              <a href= {"mailto:almonzorhoden@gmail.com"} target="_blank" rel="noopener noreferrer"><button type="submit" className="btn btn-primary" id="submitBtn">Submit</button></a>
               </div>
             </form>
 
@@ -50,6 +50,8 @@ function Contact(props) {
     </div>
 
         <img src={logo} alt="Logo" style={{ margin: "auto" }} />
+
+        
 
       </div>
   );

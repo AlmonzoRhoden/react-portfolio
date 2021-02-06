@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/AlmonzoRhoden/react-portfolio.git/static/css/main.c0ed4d58.chunk.css",
-    "main.js": "/AlmonzoRhoden/react-portfolio.git/static/js/main.8632c0e4.chunk.js",
-    "main.js.map": "/AlmonzoRhoden/react-portfolio.git/static/js/main.8632c0e4.chunk.js.map",
-    "runtime-main.js": "/AlmonzoRhoden/react-portfolio.git/static/js/runtime-main.b1bfbcef.js",
-    "runtime-main.js.map": "/AlmonzoRhoden/react-portfolio.git/static/js/runtime-main.b1bfbcef.js.map",
-    "static/css/2.150d169a.chunk.css": "/AlmonzoRhoden/react-portfolio.git/static/css/2.150d169a.chunk.css",
-    "static/js/2.5b2b67f2.chunk.js": "/AlmonzoRhoden/react-portfolio.git/static/js/2.5b2b67f2.chunk.js",
-    "static/js/2.5b2b67f2.chunk.js.map": "/AlmonzoRhoden/react-portfolio.git/static/js/2.5b2b67f2.chunk.js.map",
-    "index.html": "/AlmonzoRhoden/react-portfolio.git/index.html",
-    "static/css/2.150d169a.chunk.css.map": "/AlmonzoRhoden/react-portfolio.git/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.c0ed4d58.chunk.css.map": "/AlmonzoRhoden/react-portfolio.git/static/css/main.c0ed4d58.chunk.css.map",
-    "static/js/2.5b2b67f2.chunk.js.LICENSE.txt": "/AlmonzoRhoden/react-portfolio.git/static/js/2.5b2b67f2.chunk.js.LICENSE.txt",
-    "static/media/Portfolio.css": "/AlmonzoRhoden/react-portfolio.git/static/media/testing-app.011e551e.png",
-    "static/media/gif-1.ca472e0e.gif": "/AlmonzoRhoden/react-portfolio.git/static/media/gif-1.ca472e0e.gif"
+    "main.css": "/AlmonzoRhoden/react-portfolio/static/css/main.cc1833b3.chunk.css",
+    "main.js": "/AlmonzoRhoden/react-portfolio/static/js/main.8632c0e4.chunk.js",
+    "main.js.map": "/AlmonzoRhoden/react-portfolio/static/js/main.8632c0e4.chunk.js.map",
+    "runtime-main.js": "/AlmonzoRhoden/react-portfolio/static/js/runtime-main.508a04b9.js",
+    "runtime-main.js.map": "/AlmonzoRhoden/react-portfolio/static/js/runtime-main.508a04b9.js.map",
+    "static/css/2.150d169a.chunk.css": "/AlmonzoRhoden/react-portfolio/static/css/2.150d169a.chunk.css",
+    "static/js/2.5b2b67f2.chunk.js": "/AlmonzoRhoden/react-portfolio/static/js/2.5b2b67f2.chunk.js",
+    "static/js/2.5b2b67f2.chunk.js.map": "/AlmonzoRhoden/react-portfolio/static/js/2.5b2b67f2.chunk.js.map",
+    "index.html": "/AlmonzoRhoden/react-portfolio/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/AlmonzoRhoden/react-portfolio/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.cc1833b3.chunk.css.map": "/AlmonzoRhoden/react-portfolio/static/css/main.cc1833b3.chunk.css.map",
+    "static/js/2.5b2b67f2.chunk.js.LICENSE.txt": "/AlmonzoRhoden/react-portfolio/static/js/2.5b2b67f2.chunk.js.LICENSE.txt",
+    "static/media/Portfolio.css": "/AlmonzoRhoden/react-portfolio/static/media/testing-app.011e551e.png",
+    "static/media/gif-1.ca472e0e.gif": "/AlmonzoRhoden/react-portfolio/static/media/gif-1.ca472e0e.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.b1bfbcef.js",
+    "static/js/runtime-main.508a04b9.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.5b2b67f2.chunk.js",
-    "static/css/main.c0ed4d58.chunk.css",
+    "static/css/main.cc1833b3.chunk.css",
     "static/js/main.8632c0e4.chunk.js"
   ]
 }

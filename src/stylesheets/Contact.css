@@ -1,28 +1,5 @@
 /* Contact CSS*/ 
 
-/* Added Google font Leckerli One */
-@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
-
-
-/* Universal settings */
-  *
-  {
-	box-sizing: border-box;
-  }
-
-  .navbar
-{
-	margin-top: 10px;
-	border-radius: 10px;
-	font-family: 'Leckerli One', cursive,'Times New Roman', Times, serif;
-}
-
-.nav-link
-{
-	 float: right; 
-}
-
-
 
 .form-check
 {
@@ -38,30 +15,16 @@
 
 
 
-
   @media only screen and (max-width: 768px) 
 {
 	.jumbotron
 	{
 		float: right;
 	}
-
-
-
-}
-
-/* Media Query for screens larger than 992px */
-
-@media only screen and (min-width: 992px) 
-{
-	.navbar-brand
+	.contact-ipad
 	{
-	  padding-right: 740px;
+		width:auto;
 	}
 
-	.nav-link
-	{
-		font-size:20px;
-	}
 
 }

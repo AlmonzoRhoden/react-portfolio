@@ -9,7 +9,7 @@ function About()
     <div>
       
       {/* Bootstrap jumbotron start*/}
-      <div className="jumbotron jumbotron-fluid" style = {{borderRadius:"20px"}}>
+      <div className="jumbotron contact-ipad" style = {{borderRadius:"20px"}}>
       <div className="container">
         <h1 className="display-5">About Me</h1>
         <hr className="my-4"/>
@@ -46,6 +46,8 @@ function About()
       </div>
 
     </div>
+
+    <br/>
 
     {/* Resume section */}
     <div className="card border-dark mb-1" style={{maxWidth: "80rem", maxHeight: "40rem"}}>

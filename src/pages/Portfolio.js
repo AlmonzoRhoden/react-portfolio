@@ -4,16 +4,12 @@ import "../script/Portfolio.js"
 
 import { Link, Route } from "react-router-dom";
 
- 
-
 function Portfolio() 
 {
   return (
     <div>
 
 <div class="container">
-
-
 
     {/*  Box-1 */}
     <div class="jumbotron ipad zoom">

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
+import "../stylesheets/Contact.css"
 
 import logo from "../images/gif-1.gif"
 
@@ -10,7 +11,7 @@ function Contact(props) {
     <div>
 
 
-      <div className="jumbotron">
+      <div className="jumbotron contact-ipad">
         <h1 className="display-4">Contact</h1>
         <p className="lead"> </p>
         <hr className="my-4" />

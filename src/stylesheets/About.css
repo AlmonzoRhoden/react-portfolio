@@ -54,6 +54,11 @@ body
 	width:100%;
 }
 
+.contact-ipad
+{
+	width:auto;
+}
+
 }
 
   /* Media Query for screens larger than 992px */

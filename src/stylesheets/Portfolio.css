@@ -118,10 +118,10 @@ h2
 	.ipad
 	{
 		float: right;
-		width: 290px;
+		width: 345px;
 	}
 
-	.container
+.container
 {
 	flex-direction: row;
 	display: flex;
@@ -133,15 +133,15 @@ h2
 
 
 /* Media Query for screens larger than 992px */
-@media only screen and (min-width: 992px) 
+@media only screen and (max-width: 992px) 
 {
 	.jumbotron
 	{
-		width: 400px;
-		
+		width: 320px;	
 	}
 
 }
+  
   
 /* Glowing text - do not touch */
 @keyframes glow {

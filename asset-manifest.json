@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f905b2d9.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.5ffb8cc8.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.5ffb8cc8.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.7686de59.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7686de59.js.map",
-    "static/css/2.150d169a.chunk.css": "/react-portfolio/static/css/2.150d169a.chunk.css",
-    "static/js/2.aee4e30c.chunk.js": "/react-portfolio/static/js/2.aee4e30c.chunk.js",
-    "static/js/2.aee4e30c.chunk.js.map": "/react-portfolio/static/js/2.aee4e30c.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "static/css/2.150d169a.chunk.css.map": "/react-portfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.f905b2d9.chunk.css.map": "/react-portfolio/static/css/main.f905b2d9.chunk.css.map",
-    "static/js/2.aee4e30c.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.aee4e30c.chunk.js.LICENSE.txt",
-    "static/media/Portfolio.css": "/react-portfolio/static/media/testing-app.011e551e.png",
-    "static/media/gif-1.ca472e0e.gif": "/react-portfolio/static/media/gif-1.ca472e0e.gif"
+    "main.css": "/static/css/main.0b9b9bbe.chunk.css",
+    "main.js": "/static/js/main.778482c8.chunk.js",
+    "main.js.map": "/static/js/main.778482c8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.890ea52f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.890ea52f.js.map",
+    "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
+    "static/js/2.5b2b67f2.chunk.js": "/static/js/2.5b2b67f2.chunk.js",
+    "static/js/2.5b2b67f2.chunk.js.map": "/static/js/2.5b2b67f2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.0b9b9bbe.chunk.css.map": "/static/css/main.0b9b9bbe.chunk.css.map",
+    "static/js/2.5b2b67f2.chunk.js.LICENSE.txt": "/static/js/2.5b2b67f2.chunk.js.LICENSE.txt",
+    "static/media/Portfolio.css": "/static/media/testing-app.011e551e.png",
+    "static/media/gif-1.ca472e0e.gif": "/static/media/gif-1.ca472e0e.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.7686de59.js",
+    "static/js/runtime-main.890ea52f.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.aee4e30c.chunk.js",
-    "static/css/main.f905b2d9.chunk.css",
-    "static/js/main.5ffb8cc8.chunk.js"
+    "static/js/2.5b2b67f2.chunk.js",
+    "static/css/main.0b9b9bbe.chunk.css",
+    "static/js/main.778482c8.chunk.js"
   ]
 }

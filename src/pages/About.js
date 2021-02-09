@@ -9,7 +9,7 @@ function About()
     <div>
       
       {/* Bootstrap jumbotron start*/}
-      <div className="jumbotron contact-ipad" style = {{borderRadius:"20px"}}>
+      <div className="jumbotron contact-ipad jumbotron-fluid" style = {{borderRadius:"20px"}}>
       <div className="container">
         <h1 className="display-5">About Me</h1>
         <hr className="my-4"/>
@@ -32,7 +32,7 @@ function About()
 
           My previous work in Information Technology over the years, combined with an
           authentic customer service approach, will allow me to provide unique ideas on how people interact with websites
-          and software platforms. Feel free to check out my <a href= "./assets/html/portfolio.html">portfolio</a> or <a href= "./assets/html/contact.html">contact</a> me to learn more thank you.   <br/>
+          and software platforms. Feel free to check out my <a href= "https://almonzorhoden.github.io/portfolio">portfolio</a> or <a href= "https://almonzorhoden.github.io/contact">contact</a> me to learn more thank you.   <br/>
         
         <br/>
           

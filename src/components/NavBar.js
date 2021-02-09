@@ -26,8 +26,8 @@ function NavBar() {
           <li className="nav-item">
 
             {/* Home Nav link code */}
-            <a className="nav-link">
-              <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+            <a href className="nav-link">
+              <Link to="/about" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
                 About
               </Link><span className="sr-only">(current)</span>
             </a>
@@ -35,7 +35,7 @@ function NavBar() {
 
           {/* Nav Portfolio link  */}
           <li className="nav-item">
-            <a className="nav-link">
+            <a href className="nav-link">
               <Link
                 to="/portfolio"
                 className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
@@ -47,7 +47,7 @@ function NavBar() {
 
           {/* Nav Contact link  */}
           <li className="nav-item">
-            <a className="nav-link">
+            <a href className="nav-link">
               <Link
                 to="/contact"
                 className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}

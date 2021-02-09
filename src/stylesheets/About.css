@@ -1,9 +1,4 @@
 
-*
-{
-	margin: 2px;
-}
-
 .jumbotron
 {
 	margin-top: 20px;
@@ -12,6 +7,7 @@
 	border-radius:20px;
 	padding: 20px;
 	float: right;
+
 }
 
 #almonzo-img

@@ -1,4 +1,8 @@
 /* Centering page */
+*
+{
+	margin: 2px;
+}
 
 .navbar
 {

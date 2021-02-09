@@ -1,8 +1,6 @@
 import React from "react";
 import "../stylesheets/Portfolio.css"
-import "../script/Portfolio.js"
 
-import { Link, Route } from "react-router-dom";
 
 function Portfolio() 
 {

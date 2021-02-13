@@ -1,5 +1,6 @@
 {
-  "name": "practice",
+  "homepage": "http://AlmonzoRhoden.github.io/react-portfolio/",
+  "name": "react-profile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -15,7 +15,8 @@ function App()
         <NavBar />
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/contact" component={Contact} />
+        <Route path = "/react-portfolio" component={About} />
         <Footer />
       </div>
     </Router>

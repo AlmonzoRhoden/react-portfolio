@@ -1,6 +1,10 @@
 // Including program components
 import React from "react";
-import "../stylesheets/About.css"
+import "../stylesheets/About.css";
+import logo from "../images/almonzo-img.png";
+import sound from "../images/deep_space2.mp3"
+import resume from "../images/Rhoden_Resume.pdf"
+
 
 // Re-usable code, Bootstrap jumbotron
 function About() 
@@ -14,7 +18,7 @@ function About()
         <h1 className="display-5">About Me</h1>
         <hr className="my-4"/>
         {/*eslint-disable-next-line */}
-        <img id="almonzo-img" src="./assets/images/almonzo-img.png" alt="almonzo-image"/>
+        <img id="almonzo-img" src={logo} alt="almonzo-image"/>
        
        {/* Spacing */}
         <br/> <br/>
@@ -32,14 +36,14 @@ function About()
 
           My previous work in Information Technology over the years, combined with an
           authentic customer service approach, will allow me to provide unique ideas on how people interact with websites
-          and software platforms. Feel free to check out my <a href= "https://almonzorhoden.github.io/portfolio">portfolio</a> or <a href= "https://almonzorhoden.github.io/contact">contact</a> me to learn more thank you.   <br/>
+          and software platforms. Feel free to check out my <a href= "/portfolio">portfolio</a> or <a href= "/contact">contact</a> me to learn more thank you.   <br/>
         
         <br/>
           
           {/* Calming background music */}
           <p>False Astronomy ♫</p>
           <audio controls loop id="myaudio">
-            <source src="./assets/background/deep_space2.mp3" type="audio/mpeg"/>
+            <source src={sound} type="audio/mpeg"/>
           </audio>
         </p>
        
@@ -65,8 +69,8 @@ function About()
         </svg> 862-438-2135</p>
 
         {/*eslint-disable-next-line */}
-        <iframe src="./assets/images/Rhoden_Resume.pdf" width="100%" height="300px"></iframe>
-        <strong><p>If your browser does not support this PDF, please click here to download: <a href="./assets/images/Rhoden_Resume.pdf">Download PDF</a></p></strong>
+        <iframe src={resume} width="100%" height="300px"></iframe>
+        <strong><p>If your browser does not support this PDF, please click here to download: <a href="./assets/images/Rhoden_Resume.pdf" target = '_blank' rel = 'noreferrer'>Download PDF</a></p></strong>
       </div>
     </div>
 

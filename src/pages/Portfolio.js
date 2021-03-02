@@ -49,7 +49,7 @@ function Portfolio()
       <div class="jumbotron ipad zoom" id='align-jumbo'>
       <h2 class="display-5">Day-Planner</h2>
       <div class="Box-5"></div> <br/>
-      <p> An app that let's you plan out your day</p>
+      <p> An app that let's you plan out your work day</p>
       <a href = 'https://almonzorhoden.github.io/day-planner/'target = '_blank' rel = 'noreferrer'><button id="testingBtn" class="btn btn-dark" button type="submit">Visit Page</button></a>
       <a href = 'https://github.com/AlmonzoRhoden/day-planner'target = '_blank' rel = 'noreferrer'><button id="testingGitBtn" class="btn btn-dark" button type="submit">Visit Github</button></a>
     </div>

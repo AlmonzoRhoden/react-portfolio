@@ -5,14 +5,14 @@
 	justify-content:space-between;
 	background-color: #F8F9FA;
 	border-radius:20px;
-	padding: 20px;
 	float: right;
-
 }
 
 #almonzo-img
 {
 	border: 3px solid black;
+	margin-bottom: 10px;
+	
 }
 
 body
@@ -59,10 +59,44 @@ body
 
   /* Media Query for screens larger than 992px */
 
+  @media only screen and (max-width: 600px) 
+{
+	.jumbotron
+	{
+		width:100px;
+    }
+}
+
+@media only screen and (min-width: 768px) 
+{
+	.jumbotron
+	{
+		width:100%;
+    }
+
+	p
+	{
+		padding-top: 10px;
+	}
+}
+
+
+
+
 @media only screen and (min-width: 992px) 
 {
 	.jumbotron
 	{
 		width:38%;
     }
+
+	
+
+	.jumbotron-2
+	{
+		margin-right:35px;
+	}
+
+
+
 }

@@ -15,11 +15,20 @@
 
 
 
+@media only screen and (max-width: 600px) 
+{
+	#GitBtn
+{
+	
+	margin-bottom:2px;
+}
+
+}
   @media only screen and (max-width: 768px) 
 {
 	.jumbotron
 	{
-		float: right
+		float: right;
 	}
 	.contact-ipad
 	{
@@ -28,3 +37,31 @@
 
 
 }
+
+	 @media only screen and (max-width: 768px) 
+{
+	.jumbotron
+	{
+		float: right;
+	}
+	.contact-ipad
+	{
+		width:auto;
+	}
+
+
+}
+
+
+
+@media only screen and (min-width: 992px) 
+{
+	
+	.jumbotron-1
+	{
+		margin-right:20px;
+	}
+
+}
+
+

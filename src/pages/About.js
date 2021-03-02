@@ -4,6 +4,8 @@ import "../stylesheets/About.css";
 import logo from "../images/almonzo-img.png";
 import sound from "../images/deep_space2.mp3"
 import resume from "../images/Rhoden_Resume.pdf"
+import { Link } from "react-router-dom";
+
 
 
 // Re-usable code, Bootstrap jumbotron
@@ -13,39 +15,42 @@ function About()
     <div>
       
       {/* Bootstrap jumbotron start*/}
-      <div className="jumbotron contact-ipad jumbotron-fluid" style = {{borderRadius:"20px"}}>
+      <div className="jumbotron contact-ipad margin jumbotron-2" style={{maxWidth: "80rem", borderRadius:"10px"}}>
       <div className="container">
         <h1 className="display-5">About Me</h1>
         <hr className="my-4"/>
-        {/*eslint-disable-next-line */}
+
+               {/*eslint-disable-next-line */}
         <img id="almonzo-img" src={logo} alt="almonzo-image"/>
-       
-       {/* Spacing */}
-        <br/> <br/>
+
+      
   
-        {/* About me section*/}
-        <p>
-          Hi! Welcome to my page! I'm a Front-end web developer based in North Jersey leveraging an Information Systems degree from Rutgers University and
-          customer service background to build quality user experiences in mobile and web applications. <br/> <br/>
+  {/* About me section*/}
+  <p>
+    Hi! Welcome to my page! I'm a Front-end web developer based in North Jersey leveraging an Information Systems degree from Rutgers University and
+    customer service background to build quality user experiences in mobile and web applications. <br/> <br/>
 
-          Recently earned a
-          certificate in full stack development from Rutgers University, enhancing my skills in responsive web design,
-          Bootstrap, JavaScript, API, Express, React, Node, and MySQL. Passionate about creating simplistic
-          life-enhancing applications and collaborating with others to develop
-          meaningful innovative experiences. <br/> <br/>
+    Recently earned a
+    certificate in full stack development from Rutgers University, enhancing my skills in responsive web design,
+    Bootstrap, JavaScript, API, Express, React, Node, and MySQL. Passionate about creating simplistic
+    life-enhancing applications and collaborating with others to develop
+    meaningful innovative experiences. <br/> <br/>
 
-          My previous work in Information Technology over the years, combined with an
-          authentic customer service approach, will allow me to provide unique ideas on how people interact with websites
-          and software platforms. Feel free to check out my <a href= "/portfolio">portfolio</a> or <a href= "/contact">contact</a> me to learn more thank you.   <br/>
+    My previous work in Information Technology over the years, combined with an
+    authentic customer service approach, will allow me to provide unique ideas on how people interact with websites
+    and software platforms. Feel free to check out my <Link to="/portfolio">portfolio</Link> or <Link to="/contact">contact </Link> me to learn more thank you.   <br/>
+  
+  <br/>
+    
+    {/* Calming background music */}
+    <p>False Astronomy ♫</p>
+    <audio controls loop id="myaudio">
+      <source src={sound} type="audio/mpeg"/>
+    </audio>
+  </p>
+ 
+
         
-        <br/>
-          
-          {/* Calming background music */}
-          <p>False Astronomy ♫</p>
-          <audio controls loop id="myaudio">
-            <source src={sound} type="audio/mpeg"/>
-          </audio>
-        </p>
        
       </div>
 
@@ -69,7 +74,7 @@ function About()
         </svg> 862-438-2135</p>
 
         {/*eslint-disable-next-line */}
-        <iframe src={resume} width="100%" height="300px"></iframe>
+        <iframe src={resume} width="100%" height="300px" ></iframe>
         <strong><p>If your browser does not support this PDF, please click here to download: <a href="./assets/images/Rhoden_Resume.pdf" target = '_blank' rel = 'noreferrer'>Download PDF</a></p></strong>
       </div>
     </div>

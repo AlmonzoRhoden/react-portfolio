@@ -22,8 +22,6 @@ function About()
 
                {/*eslint-disable-next-line */}
         <img id="almonzo-img" src={logo} alt="almonzo-image"/>
-
-      
   
   {/* About me section*/}
   <p>

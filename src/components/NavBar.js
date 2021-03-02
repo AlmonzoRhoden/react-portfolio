@@ -9,6 +9,7 @@ function NavBar() {
   const location = useLocation();
 
   return (
+    
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       {/* Adding eslint to make code cleaner while incorporating bootstrap*/}
      {/* eslint-disable-next-line */}

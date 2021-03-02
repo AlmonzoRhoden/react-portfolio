@@ -11,14 +11,14 @@ import Video from "./images/Midnight_moon2.mp4"
 function App() 
 {
   return (
-    <Router>
+  <Router basename={process.env.PUBLIC_URL}>
       <div>
         <NavBar />
         <video id="myVideo" loop muted autostart autoPlay src={Video} type="video/mp4" />
           <Switch>
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
         <Route path = "/react-portfolio" component={About} />
         </Switch>
         <Footer />

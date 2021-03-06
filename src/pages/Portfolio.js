@@ -16,6 +16,8 @@ function Portfolio()
       <p>An app that helps you get tested for Covid-19.</p>
       <a href = 'https://almonzorhoden.github.io/covid-19-app/'target = '_blank' rel = 'noreferrer'><button id="testingBtn" class="btn btn-dark" button type="submit">Visit Page</button></a>
       <a href = 'https://github.com/AlmonzoRhoden/covid-19-app'target = '_blank' rel = 'noreferrer'><button id="testingGitBtn" class="btn btn-dark" button type="submit">Visit Github</button></a>
+  
+   
     </div>
 
     {/* Box-2 */}

@@ -20,6 +20,7 @@ function App()
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
         <Route path = "/react-portfolio" component={About} />
+        <Route path="/" component={About} />
         </Switch>
         <Footer />
       </div>

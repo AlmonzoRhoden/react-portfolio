@@ -1,4 +1,4 @@
-<h1 align = "center" > React Portfolio </h1>
+<h1 align = "center" > Responsive React Portfolio </h1>
 
 <h2>Preview of application<h2>
 
